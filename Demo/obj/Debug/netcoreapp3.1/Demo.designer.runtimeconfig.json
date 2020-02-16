@@ -7,8 +7,7 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\dell\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\dell\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\dell\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

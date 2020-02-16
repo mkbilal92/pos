@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test\\Demo\\Demo\\Demo.csproj": {}
+    "F:\\POS\\Test\\Demo\\Demo\\Demo.csproj": {}
   },
   "projects": {
-    "D:\\Test\\Demo\\Demo\\Demo.csproj": {
+    "F:\\POS\\Test\\Demo\\Demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test\\Demo\\Demo\\Demo.csproj",
+        "projectUniqueName": "F:\\POS\\Test\\Demo\\Demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "D:\\Test\\Demo\\Demo\\Demo.csproj",
+        "projectPath": "F:\\POS\\Test\\Demo\\Demo\\Demo.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Test\\Demo\\Demo\\obj\\",
+        "outputPath": "F:\\POS\\Test\\Demo\\Demo\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,9 +38,37 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.3.0, )"
+              "version": "[2.10.2, )"
             }
           },
           "imports": [
@@ -64,7 +89,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
