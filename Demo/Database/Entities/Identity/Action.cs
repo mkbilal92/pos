@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System;
 
 namespace Demo.Database.Entities.Identity
 {
@@ -6,7 +7,8 @@ namespace Demo.Database.Entities.Identity
     {
         #region Public Properties
 
-        public int ActionId { get; set; }
+        [BsonId] [BsonElement("Id")]
+        public string ActionId { get; set; }
 
         public string Description { get; set; }
         public DateTimeOffset Created { get; set; }

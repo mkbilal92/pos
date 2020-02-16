@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 
 namespace Demo.Database.Entities.Identity
@@ -9,6 +10,9 @@ namespace Demo.Database.Entities.Identity
         {
             UserId = Guid.NewGuid().ToString();
         }
+
+        [BsonId]
+        [BsonElement("Id")]
         public string UserId { get; set; }
         public string Image { get; set; }
         public int InvalidAttempts { get; set; }

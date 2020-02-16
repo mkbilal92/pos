@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System;
 
 namespace Demo.Database.Entities.Identity
 {
@@ -8,6 +9,9 @@ namespace Demo.Database.Entities.Identity
         {
             RoleId = Guid.NewGuid().ToString();
         }
+
+        [BsonId]
+        [BsonElement("Id")]
         public string RoleId { get; set; }
         public string Description { get; set; }
         public DateTimeOffset Created { get; set; }
