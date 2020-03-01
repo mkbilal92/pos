@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Test\Demo\Demo\obj\Debug\netcoreapp3.1\
+C:\POS\pos\Demo\obj\Debug\netcoreapp3.1\
 Demo
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-D:\Test\Demo\Demo\App.xaml
+C:\POS\pos\Demo\App.xaml
 11151548125
 
 151418154932
-195-453912904
+1951784636193
 MainWindow.xaml;
 
 False
